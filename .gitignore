@@ -35,5 +35,8 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+<<<<<<< HEAD
 
 app-example
+=======
+>>>>>>> 4e9259cd (Initial commit)
