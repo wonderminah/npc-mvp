@@ -17,7 +17,8 @@
       "bundleIdentifier": "com.minahkim.nrcmvp",
       "infoPlist": {
         "NSHealthShareUsageDescription": "러닝 기록을 불러오기 위해 HealthKit 접근 권한이 필요합니다.",
-        "NSHealthUpdateUsageDescription": "러닝 기록을 사용하기 위해 필요합니다."
+        "NSHealthUpdateUsageDescription": "러닝 기록을 사용하기 위해 필요합니다.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -32,7 +33,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      
+      "react-native-health"
     ],
     "extra": {
       "eas": {
