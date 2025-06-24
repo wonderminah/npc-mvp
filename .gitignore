@@ -1,13 +1,15 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
-node_modules/
+#node_modules/ #node_modules/react-native-health/index.js 를 직접 수정했기 때문에 git 에 업로드하도록 주석처리
 
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
+ios/
+android/
 
 # Native
 .kotlin/
